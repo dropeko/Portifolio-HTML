@@ -1,17 +1,22 @@
 body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     background: url(/header.gif);
 }
 
 header {
-    text-align: center;
     margin-bottom: -10px;
 }
 
 #title {
-    border-radius: 20%;
-    margin-left: 34.5%;
-    text-align: center;
+    border-radius: 3px;
     width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 20%;
+    text-align: center;
     background-color: rgb(0, 17, 73);
     color: aliceblue;
 }
@@ -27,10 +32,11 @@ header {
 }
 
 #color-palette {
-    border-radius: 30%;
+    border-radius: 20%;
     display: flex;
     justify-content: center;
-    margin-left: 37%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     width: 25%;
     margin-bottom: 10px;
@@ -62,6 +68,10 @@ header {
 }
 
 footer {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
     justify-content: center;
     display: flex;
     background-color: aliceblue;

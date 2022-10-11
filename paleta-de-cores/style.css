@@ -1,7 +1,5 @@
-
-/* ------ Geral ------ */
 * {
-    font-family: Sen, sans-serif;
+    font-family: monospace;
   }
   
   body {
@@ -23,9 +21,8 @@
   
   .row {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    min-width: 60vw;
+    justify-content: center;
+    min-width: 40vw;
   }
   
   .column {
@@ -109,25 +106,24 @@
   }
   
   .modify-board {
+    margin-left: 10px;
     display: flex;
     flex-direction: row;
-    margin: 0 0 0 auto;
     background-color: white;
     padding: 20px;
     border-radius: 35px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
   
   .modify-board input {
-    margin: auto 20px;
+    margin: auto 10px;
     border-radius: 15px;
     height: 35px;
-    border: 1px solid grey;
+    border: 5px solid rgb(2, 15, 71);
     text-align: center;
   }
   
   #generate-board {
-    background-color: darkcyan;
+    background-color: rgb(2, 15, 71);
     border-radius: 20px;
     color: white;
     font-size: 1.7rem;
@@ -165,9 +161,9 @@
   }
   
   .clear-div {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     background-color: white;
-    width: 25vw;
     padding: 10px;
     border-radius: 35px;
     text-align: center;
@@ -177,7 +173,7 @@
     border: 1px solid black;
     border-radius: 20px;
     padding: 10px;
-    background-color: darkcyan;
+    background-color: rgb(2, 15, 71);
     color: white;
     font-size: 1.7rem;
     font-weight: 600;
@@ -194,3 +190,9 @@
     color: white;
     cursor: pointer;
   }
+
+  footer {
+    justify-content: center;
+    display: flex;
+    background-color: aliceblue;
+}

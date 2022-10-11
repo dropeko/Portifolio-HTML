@@ -1,6 +1,6 @@
 const standartBoard = 5;
 
-function limpaQuadro() {
+function clearBoard() {
   const table = document.getElementById('pixel-board');
   const itensTabela = table.children;
   console.log(itensTabela);
@@ -103,7 +103,7 @@ function chargePaletteColors() {
 function resetBoard() {
   const tamanhoQuadro = localStorage.getItem('boardSize');
   startBoard(tamanhoQuadro);
-  limpaQuadro();
+  clearBoard();
   restoreBoard();
 }
 

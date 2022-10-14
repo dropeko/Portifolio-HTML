@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TrybeWarts</title>
+</head>
+<body>
+  <header class="header">
+      <img src="/images/trybewarts-header-logo.svg" alt="trybe-logo" class="trybewarts-header-logo">
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form action="" method="get" class="trybewarts-login">
+        <input type="email" name="email" id="email-input" placeholder="Email">
+        <input type="password" name="password" id="password-input" placeholder="Senha">
+        <button type="submit" id="enter-button">Entrar</button>
+      </form>
+  </header>
+  <main>
+    <form action="" id="evaluation-form">
+      <h1>Formulário de Avaliação</h1>
+      <section id="name-lastname-input">
+        <input type="text" name="name" id="input-name" placeholder="Nome">
+        <input type="text" name="last-name" id="input-lastname" placeholder="Sobrenome">
+      </section>
+      <section id="email-house-input">
+        <input type="email" name="email-form" id="input-email" placeholder="Email">
+        <label for="house">Casa: </label>
+        <select name="houses-options" id="house">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+      </section>
+      <hr width="200px">
+    </form>
+    <img src="./images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo" height="500px">
+  </main>
+
+  <script src="/script.js"></script>    
+</body>
+</html>

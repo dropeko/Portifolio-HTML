@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: fantasy;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+}
+
+.trybewarts-header-logo {
+  width: 10%;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 675px;
+  border: 2px solid black;
+}
+
+#name-lastname-input {
+  margin: 1%;
+}

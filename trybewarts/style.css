@@ -16,11 +16,18 @@
 
 .trybewarts-login {
   display: flex;
+  height: 40px;
+  margin: 10px;
+}
+
+#email-input, #password-input {
+  margin-right: 2px;
+  border-radius: 5px;
 }
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 #evaluation-form {

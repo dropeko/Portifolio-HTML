@@ -21,8 +21,9 @@
 }
 
 #email-input, #password-input {
-  margin-right: 2px;
+  margin-right: 5px;
   border-radius: 5px;
+  border: 0px solid wheat
 }
 
 main {

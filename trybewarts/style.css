@@ -39,11 +39,16 @@
 #email-input , #password-input {
   border-radius: 5px;
   margin-right: 5px;
+  font-family: monospace;
 }
 
 #enter-button {
   margin-left: 5px;
 }
+
+/* body main {
+  justify-content: center;
+} */
 
 main {
   display: flex;
@@ -52,7 +57,6 @@ main {
   background: url('./images/background.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-
 }
 
 #evaluation-form {
@@ -173,4 +177,12 @@ hr {
   color: whitesmoke;
   height: 60%;
   padding: 5px;
+}
+
+#input-name , #input-lastname , #input-email {
+  font-family: monospace;
+}
+
+label {
+  margin: 3px;
 }

@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---fonte do site https://www.cdnfonts.com/harry-potter.font--->
+    <link href="http://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>TrybeWarts</title>
 </head>
 <body>
   <header class="header">
       <img src="/images/trybewarts-header-logo.svg" alt="trybe-logo" class="trybewarts-header-logo">
-      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <h1 id="trybewarts-header-title" class="title">Trybewarts</h1>
       <form action="" method="get" class="trybewarts-login">
         <input type="email" name="email" id="email-input" placeholder="Email">
         <input type="password" name="password" id="password-input" placeholder="Senha">
-        <button type="submit" id="enter-button">Entrar</button>
+        <button type="submit" id="enter-button" class="enter-btn">Entrar</button>
       </form>
   </header>
   <main>
     <form action="" id="evaluation-form">
-      <h1>Formulário de Avaliação</h1>
+      <h1 id="form-title">Formulário de Avaliação</h1>
       <section id="name-lastname-input">
         <input type="text" name="name" id="input-name" placeholder="Nome">
         <input type="text" name="last-name" id="input-lastname" placeholder="Sobrenome">
@@ -35,10 +37,58 @@
         </select>
       </section>
       <hr width="200px">
+      <section id="label-container">
+        <label id="label-family"><p>Qual sua família?</p></label>
+        <label for="Frontend"><input type="radio" name="family" value="Frontend">Frontend</label>
+        <label for="Backend"><input type="radio" name="family" value="Backend">Backend</label>
+        <label for="FullStack"><input type="radio" name="family" value="FullStack">FullStack</label>
+      </section>
+      <hr width="200px">
+      <section id="label-content-container">
+        <label id="label-content"><h2>Qual conteúdo você está com mais vontade de aprender? </h2></label>
+        <label for="HoFs"><input type="checkbox" class="subject" value="HoFs" id="HoFs">HoFs</label>
+        <label for="Jest"><input type="checkbox" class="subject" value="Jest" id="Jest">Jest</label>
+        <label for="Promises"><input type="checkbox" class="subject" value="Promises" id="Promises">Promises</label>
+        <label for="React"><input type="checkbox" class="subject" value="React" id="React">React</label>
+        <label for="SQL"><input type="checkbox" class="subject" value="SQL" id="SQL">SQL</label>
+        <label for="Python"><input type="checkbox" class="subject" value="Python" id="Python">Python</label>
+      </section>
+      <hr width="200px">
+      <section id="evaluator-container">
+        <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+        <label for=""><input type="radio" name="rate" id="" value="1">1</label>
+        <label for=""><input type="radio" name="rate" id="" value="2">2</label>
+        <label for=""><input type="radio" name="rate" id="" value="3">3</label>
+        <label for=""><input type="radio" name="rate" id="" value="4">4</label>
+        <label for=""><input type="radio" name="rate" id="" value="5">5</label>
+        <label for=""><input type="radio" name="rate" id="" value="6">6</label>
+        <label for=""><input type="radio" name="rate" id="" value="7">7</label>
+        <label for=""><input type="radio" name="rate" id="" value="8">8</label>
+        <label for=""><input type="radio" name="rate" id="" value="9">9</label>
+        <label for=""><input type="radio" name="rate" id="" value="10">10</label>
+      </section>
+      <section id="coment-area">
+        <label for="coment" class="textarea"><h3>Deixe seu comentário:</h3></label>
+        <textarea name="coment" id="textarea" class="textarea-input" cols="70" rows="15" maxlength="500" style="resize: none"></textarea>
+        <span id="counter">500</span>
+      </section>
+      <hr width="200px">
+      <section id="agreement-container" class="agreement-contain">
+        <label for="agreement" id="label-infos"><h3>Você concorda com o uso das informações acima?</h3></label>
+      </section>
+      <br>
+      <section id="submit-button-container">
+      </section>
     </form>
+    <section id="form-data">
+    </section>
+    
     <img src="./images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo" height="500px">
+    
   </main>
-
+  <footer class="rodape">
+    <h4 class="rodape-title">Direitos reservados à Trybewarts©</h4>
+  </footer>
   <script src="/script.js"></script>    
 </body>
 </html>
